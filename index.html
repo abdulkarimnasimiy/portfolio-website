@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Karimjon | Frontend Developer</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+
+<!-- ===== HEADER / HERO ===== -->
+<header id="home">
+  <nav class="navbar">
+  <div class="container navigation">
+    <div class="logo"><a href="#home">Karimjon</a></div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <span></span><span></span><span></span>
+    </div>
+
+    <div class="navbar-nav" id="navbar-nav">
+      <a href="#projects">projects</a>
+      <a href="#skills">skills</a>
+      <a href="#about">about</a>
+      <a href="#contact">contact</a>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="banner">
+    <div class="container">
+      <h1 class="banner-title">Frontend Developer</h1>
+      <p>
+        I build clean and responsive web interfaces <br />
+        using HTML, CSS and JavaScript
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== PROJECTS ===== -->
+<section class="design" id="projects">
+  <div class="container">
+    <div class="title">
+      <h2>Projects</h2>
+      <p>Some of my recent work</p>
+    </div>
+
+    <div class="design-content">
+
+      <!-- Portfolio -->
+      <div class="design-item">
+        <div class="design-img">
+          <img src="images/project-portfolio.png" alt="Portfolio Website">
+        </div>
+        <div class="design-title">
+          <h3>Portfolio Website</h3>
+          <p>Personal frontend portfolio with responsive layout and animations.</p>
+          <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Weather App -->
+      <div class="design-item">
+        <div class="design-img">
+          <img src="images/project-wather.png" alt="Weather App">
+        </div>
+        <div class="design-title">
+          <h3>Weather App</h3>
+          <p>JavaScript weather application using external API.</p>
+          <a href="https://weather-app-nasimiy.netlify.app/">Live Demo</a> | 
+          <a href="https://github.com/abdulkarimnasimiy/weather-app">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Todo App -->
+      <div class="design-item">
+        <div class="design-img">
+          <img src="images/project-todo.png" alt="Todo App">
+        </div>
+        <div class="design-title">
+          <h3>Todo App</h3>
+          <p>Task management application PWA</p>
+          <a href="https://to-do-nasimiy.netlify.app/">Live Demo</a> | 
+          <a href="https://github.com/abdulkarimnasimiy/to-do-app">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Memory Game -->
+      <div class="design-item">
+        <div class="design-img">
+          <img src="images/project-memory.png" alt="Memory Game">
+        </div>
+        <div class="design-title">
+          <h3>Memory Game</h3>
+          <p>Interactive memory card game built with JavaScript.</p>
+          <a href="https://card-game-nasimiy.netlify.app/">Live Demo</a> | 
+          <a href="https://github.com/abdulkarimnasimiy/card-game">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Fitness Club (Coming Soon) -->
+      <div class="design-item">
+        <div class="design-img">
+          <img src="images/project-erp.png" alt="ERP Platform for marketplace">
+        </div>
+        <div class="design-title">
+          <h3>ERP Platform</h3>
+          <p>ERP Platform for markets</p>
+          <a href="https://market-erp.netlify.app/">Live Demo</a> | 
+          <a href="https://github.com/abdulkarimnasimiy/erp-frontend-project">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Delivery / Business Landing -->
+      <div class="design-item">
+        <div class="design-img">
+          <img src="images/project-delivery.png" alt="Delivery Landing">
+        </div>
+        <div class="design-title">
+          <h3>Delivery / Business Landing</h3>
+          <p>Modern business landing page with clean UI.</p>
+          <a href="https://quick-bite-delivery.netlify.app/">Live Demo</a> | 
+          <a href="https://github.com/abdulkarimnasimiy/quick-bite-delivery-app">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== SKILLS ===== -->
+<section class="blog" id="skills">
+  <div class="container">
+    <div class="title">
+      <h2>Skills</h2>
+      <p>Technologies I work with</p>
+    </div>
+
+    <div class="skills-list">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+      <span>Bootstrap</span>
+      <span>Git & GitHub</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-content">
+
+      <!-- LEFT: Carousel -->
+      <div class="about-carousel" aria-label="About images carousel">
+
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+            <img src="images/about1.jpg" alt="About 1" draggable="false">
+            <img src="images/about2.jpg" alt="About 2" draggable="false">
+            <img src="images/about3.jpg" alt="About 3" draggable="false">
+            <img src="images/about4.jpg" alt="About 4" draggable="false">
+          </div>
+        </div>
+
+        <button class="carousel-btn prev" type="button" aria-label="Previous slide">‹</button>
+        <button class="carousel-btn next" type="button" aria-label="Next slide">›</button>
+
+        <div class="carousel-dots" aria-label="Slide indicators"></div>
+      </div>
+
+      <!-- RIGHT: Text (o‘zgarmaydi) -->
+      <div class="about-text">
+  <div class="title">
+    <h2>About Me</h2>
+    <p>Frontend Developer</p>
+  </div>
+
+  <p>
+    I’m a frontend developer and IT student focused on building clean, responsive,
+    and user-friendly interfaces. I enjoy turning UI designs into real products
+    using modern HTML, CSS, and JavaScript.
+  </p>
+
+  <p>
+    My strengths are layout (Grid/Flex), component-based UI building, and writing
+    structured, maintainable code. I care about performance, accessibility, and
+    pixel-perfect details.
+  </p>
+
+  <p>
+    Currently, I’m improving my JavaScript skills (DOM, APIs, async/await) and building
+    real-world projects like landing pages, dashboards, and small web apps.
+  </p>
+
+  <ul class="about-list">
+    <li><strong>Tech:</strong> HTML, CSS, JavaScript, Git, Responsive Design</li>
+    <li><strong>Learning:</strong> React, API integration, Clean Code</li>
+    <li><strong>Goal:</strong> Junior Frontend Developer role</li>
+  </ul>
+
+  <div class="about-actions">
+    <a class="btn btn-primary" href="#contact">Hire Me</a>
+    <a class="btn btn-outline" href="cv.html">View CV</a>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+  <div class="container">
+    <div class="title">
+      <h2>Contact Me</h2>
+      <p>Let’s build something together</p>
+    </div>
+
+    <div class="contact-content">
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <p>
+          I am open to internship opportunities and collaboration.
+          Feel free to contact me.
+        </p>
+
+        <ul>
+          <li><i class="fas fa-envelope"></i> nasimdjanovich@gmail.com</li>
+          <li><i class="fab fa-github"></i> github.com/abdulkarimnasimiy</li>
+          <li><i class="fab fa-telegram"></i> @nasimiy_58</li>
+        </ul>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form" id="contact-form">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+  <button type="submit" class="btn">Send Message</button>
+  <p id="form-status"></p>
+</form>
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="social-links">
+    <a href="https://github.com/abdulkarimnasimiy"><i class="fab fa-github"></i></a>
+    <a href="https://t.me/+998773852078"><i class="fab fa-telegram"></i></a>
+    <a href="https://www.linkedin.com/in/karimjon-komilov-91a39b297/"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <p>© 2026 Karimjon — Frontend Developer</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
